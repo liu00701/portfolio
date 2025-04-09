@@ -91,7 +91,7 @@
     >
       <section class="py-4" aria-labelledby="contact-heading">
         <div class="container">
-          <div class="mb-4">
+          <div>
             <img
               src="./images/contact.jpg"
               srcset="./images/contact-s.jpg 600w, ./images/contact.jpg 1200w"
@@ -100,7 +100,58 @@
               alt="Illustration of contacting us via email"
             />
           </div>
-          <p class="mb-4">
+          <div class="row align-items-start mt-4 mt-md-5">
+            <!-- Paragraph Column -->
+            <div class="col-12 col-md-5">
+              <p>
+                Have questions or want to get in touch? We’re always here to
+                help and would love to hear from you! Whether you have inquiries
+                about our product, suggestions for new features, feedback on
+                your experience, or simply want to say hello — don’t hesitate to
+                reach out. Our team is friendly, responsive, and dedicated to
+                making sure you have the best experience possible.
+              </p>
+            </div>
+
+            <!-- Form Column -->
+            <div class="col-12 col-md-7 ps-md-4">
+              <form id="contact-form" aria-label="Contact form">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Enter Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="title" class="form-label">Enter Title</label>
+                  <input type="text" class="form-control" id="title" required />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Enter Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  id="submitBtn"
+                  type="submit"
+                  class="btn btn-dark rounded-1 px-4 animate__animated animate__bounce btn-hover"
+                  aria-label="Submit contact form"
+                >
+                  <h3 class="m-0">Submit</h3>
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- <p class="mb-4">
             Have questions or want to get in touch? Feel free to reach out!
             Whether you have inquiries about our product, or just want to say
             hello, we’d love to hear from you. You can contact us use the form.
@@ -137,7 +188,7 @@
             >
               <h3>Submit</h3>
             </button>
-          </form>
+          </form> -->
         </div>
       </section>
     </main>
