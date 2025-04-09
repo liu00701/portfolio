@@ -27,7 +27,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/bg-s.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -177,6 +177,11 @@ main img {
   body {
     font-size: 20px;
   }
+
+  body::before {
+    background-image: url("../images/bg.jpg");
+  }
+
   h1 {
     font-size: 1.8rem;
   }
