@@ -32,16 +32,16 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="container">
+    <header class="container" role="banner" aria-label="Main site navigation">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a href="#about-us" class="skiplink">Skip to main content</a>
+          <a href="#main-content" class="skiplink">Skip to main content</a>
           <a class="navbar-brand" href="/"
             ><img src="./images/logo-s.png" alt="Rediboo logo"
           /></a>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-dark-subtle"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -81,8 +81,14 @@
       </nav>
     </header>
 
-    <main>
-      <section class="py-4" id="about-us">
+    <main
+      id="main-content"
+      role="main"
+      aria-label="Main content"
+      itemscope
+      itemtype="https://schema.org/AboutPage"
+    >
+      <section class="py-4">
         <div class="container">
           <div class="mb-4">
             <img
@@ -90,7 +96,7 @@
               srcset="./images/about-s.jpg 600w, ./images/about.jpg 1200w"
               sizes="(max-width: 768px) 100vw, 1200px"
               class="w-100 rounded-1 image-shadow"
-              alt="team photo"
+              alt="A group photo representing the Readiboo team"
             />
           </div>
           <div class="mb-4">
@@ -135,7 +141,7 @@
     </main>
 
     <!-- Footer -->
-    <div class="container">
+    <div class="container" role="contentinfo" aria-label="Site footer">
       <footer
         class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top"
       >

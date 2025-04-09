@@ -32,16 +32,17 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="container">
+    <header class="container" role="banner" aria-label="Main site navigation">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a href="#contact-us" class="skiplink">Skip to main content</a>
+          <a href="#main-content" class="skiplink">Skip to main content</a>
+          <a href="#contact-form" class="skiplink">Skip to contact form</a>
           <a class="navbar-brand" href="/"
             ><img src="./images/logo-s.png" alt="Rediboo logo"
           /></a>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-dark-subtle"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -81,8 +82,14 @@
       </nav>
     </header>
 
-    <main>
-      <section class="py-4">
+    <main
+      id="main-content"
+      role="main"
+      aria-label="Main content"
+      itemscope
+      itemtype="https://schema.org/ContactPage"
+    >
+      <section class="py-4" aria-labelledby="contact-heading">
         <div class="container">
           <div class="mb-4">
             <img
@@ -90,17 +97,17 @@
               srcset="./images/contact-s.jpg 600w, ./images/contact.jpg 1200w"
               sizes="(max-width: 768px) 100vw, 1200px"
               class="w-100 rounded-1 image-shadow"
-              alt="contact Us with @ symbol"
+              alt="Illustration of contacting us via email"
             />
           </div>
-          <p class="mb-4" id="contact-us">
+          <p class="mb-4">
             Have questions or want to get in touch? Feel free to reach out!
             Whether you have inquiries about our product, or just want to say
             hello, we’d love to hear from you. You can contact us use the form.
             We’ll do our best to respond as soon as possible. Looking forward to
             connecting with you!
           </p>
-          <form>
+          <form id="contact-form" aria-label="Contact form">
             <div class="mb-3">
               <label for="email" class="form-label">Enter Email</label>
               <input
@@ -136,7 +143,7 @@
     </main>
 
     <!-- Footer -->
-    <div class="container">
+    <div class="container" role="contentinfo" aria-label="Site footer">
       <footer
         class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top"
       >
