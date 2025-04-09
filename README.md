@@ -22,3 +22,11 @@ This project helped me improve my skills in:
 - Making responsive layouts with Bootstrap
 - Solving problems using JavaScript
 - Planning and managing time during a project
+
+## Resources
+
+- Frontend toolkit from [Bootstrap](https://getbootstrap.com/)
+- Animation from [Animate.css](https://animate.style/)
+- Icons from [Fontawesome](https://fontawesome.com/)
+- Images from [Freepik](https://www.freepik.com/)
+- Fonts from [GoogleFont](https://fonts.google.com/)
