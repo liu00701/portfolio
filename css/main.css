@@ -51,7 +51,6 @@ nav .nav-link {
 }
 
 main img {
-  /* max-width: 1250px; */
   width: 100%;
   display: block;
   margin-left: auto;
@@ -108,7 +107,7 @@ main img {
 
 .content p {
   color: #6f6b80;
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -147,9 +146,15 @@ main img {
 /* contact.html */
 
 @media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
   h1 {
     font-size: 1.8rem;
   }
@@ -169,6 +174,9 @@ main img {
   /* index.html */
   nav .nav-link {
     font-size: 1.5rem;
+  }
+  .icon-area i {
+    font-size: 60px;
   }
 
   /* about.html */
