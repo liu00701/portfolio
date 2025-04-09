@@ -1,0 +1,135 @@
+body {
+  font-family: "Geologica", sans-serif;
+  font-size: 16px;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+nav ul li a {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+nav .nav-link {
+  font-size: 1.375rem;
+}
+
+.btn-hover:hover {
+  animation-name: pulse;
+  animation-duration: 0.6s;
+  animation-fill-mode: both;
+}
+
+.image-shadow {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Home */
+#home p {
+  font-size: 1.25rem;
+}
+
+/* Advantages */
+.feature-box {
+  background-color: #f9f9f9;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checklist li::before {
+  content: "✔";
+  margin: 0.3rem;
+  color: #fac8f2;
+}
+
+/* Feedback */
+.testimonial-area {
+  /* padding: 80px 0; */
+}
+
+.icon-area {
+  text-align: center;
+}
+
+.icon-area i {
+  color: #fda9ef;
+  font-size: 40px;
+}
+
+.content p {
+  color: #6f6b80;
+  width: 70%;
+  margin: auto;
+}
+
+.person {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #f8a3e7;
+  margin-top: 30px;
+}
+
+.person img {
+  width: 100%;
+}
+
+.content h5 {
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+.carousel-indicators {
+  bottom: -60px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 60px;
+  height: 10px;
+  background-color: #fda9ef;
+}
