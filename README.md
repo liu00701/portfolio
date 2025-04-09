@@ -1,6 +1,6 @@
 # Readbiboo
 
-In this project, I used a design-first method. I started with a reference image and built the layout using HTML, CSS, and Bootstrap. The main structure was easy to create, but I ran into some problems during the process:
+In this project, I started with a reference image and built the layout using HTML and Bootstrap, following the [Figma file](https://www.figma.com/proto/QJqd1vBz1HUrgMI8snnH83/liu_shuang_prototype?node-id=7-7&t=m0n51RSSKH5PRmLC-1) as a guide. I then fine-tuned the CSS to ensure everything was responsive across different screen sizes. Along the way, I ran into a few challenges:
 
 ## Carousel Layout
 
