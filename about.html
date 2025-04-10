@@ -34,10 +34,10 @@
     <!-- Header -->
     <header class="container" role="banner" aria-label="Main site navigation">
       <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+        <div class="container-fluid px-0">
           <a href="#main-content" class="skiplink">Skip to main content</a>
           <a class="navbar-brand" href="/"
-            ><img src="./images/logo-s.png" alt="Rediboo logo"
+            ><img id="logo" src="./images/logo.png" alt="Rediboo logo"
           /></a>
 
           <button
@@ -54,19 +54,19 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item px-3">
+              <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item px-3">
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="about.html"
                   >About</a
                 >
               </li>
-              <li class="nav-item px-3">
+              <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
               <li
-                class="nav-item px-3 animate__animated animate__pulse animate__infinite"
+                class="nav-item animate__animated animate__pulse animate__infinite"
               >
                 <a
                   class="nav-link"
@@ -101,7 +101,7 @@
           </div>
           <div class="mb-4">
             <h1 class="display-5 fw-bold mb-4">Our Team</h1>
-            <p>
+            <p class="text-body-secondary mb-0">
               We’re a young and passionate team driven by a shared love for
               language, learning, and technology. With diverse backgrounds and
               fresh ideas, we bring energy and creativity to everything we do.
@@ -114,7 +114,7 @@
         </div>
       </section>
 
-      <section class="py-4" id="about">
+      <section class="py-2" id="about">
         <div class="container">
           <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
             <div class="col">
@@ -188,7 +188,7 @@
     <!-- Footer -->
     <div class="container" role="contentinfo" aria-label="Site footer">
       <footer
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top"
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-4 my-5 border-top"
       >
         <div class="col">
           <a
@@ -196,7 +196,7 @@
             class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
             aria-label="Bootstrap"
           >
-            <img src="./images/logo-s.png" alt="Rediboo logo" />
+            <img id="logo" src="./images/logo.png" alt="Rediboo logo" />
           </a>
           <p class="text-body-secondary">&copy; Copyright 2025</p>
         </div>

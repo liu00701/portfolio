@@ -35,10 +35,10 @@
     <!-- header -->
     <header class="container" role="banner" aria-label="Main site navigation">
       <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+        <div class="container-fluid px-0">
           <a href="#main-content" class="skiplink">Skip to main content</a>
           <a class="navbar-brand" href="/"
-            ><img src="./images/logo-s.png" alt="Rediboo logo"
+            ><img id="logo" src="./images/logo.png" alt="Rediboo logo"
           /></a>
 
           <button
@@ -55,19 +55,19 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item px-3">
+              <li class="nav-item">
                 <a class="nav-link active" href="index.html">Home</a>
               </li>
-              <li class="nav-item px-3">
+              <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
-              <li class="nav-item px-3">
+              <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="contact.html"
                   >Contact</a
                 >
               </li>
               <li
-                class="nav-item px-3 animate__animated animate__pulse animate__infinite"
+                class="nav-item animate__animated animate__pulse animate__infinite"
               >
                 <a
                   class="nav-link"
@@ -85,13 +85,35 @@
     <main id="main-content" role="main" aria-label="Main content">
       <!-- Banner -->
       <section class="py-4">
-        <div class="container">
+        <div class="container text-center">
           <div
             id="carousel-banner"
-            class="carousel slide mb-4"
+            class="carousel slide"
             data-bs-ride="carousel"
             aria-label="Feature banners"
           >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carousel-banner"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel-banner"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel-banner"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
@@ -132,12 +154,13 @@
             </div>
           </div>
 
-          <p class="mb-4">
-            Readiboo is the ultimate language learning app, helping you master
-            new languages by immersing you in the stories you love. Whether
-            you're a beginner or looking to refine your skills, Readiboo makes
-            language learning fun through a rich library of engaging content,
-            and personalized features that adapt to your level.
+          <p id="app-description" class="mt-5 mb-3 py-md-2">
+            <span>Readiboo</span> is the ultimate language learning app, helping
+            you master new languages by immersing you in the stories you
+            love. Whether you're a beginner or looking to refine your skills,
+            Readiboo makes language learning fun through a rich library of
+            engaging content, and personalized features that adapt to your
+            level.
           </p>
           <a
             id="getStartedBtn"
@@ -397,7 +420,7 @@
     <!-- Footer -->
     <div class="container" role="contentinfo" aria-label="Site footer">
       <footer
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top border-secondary-subtle"
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-4 my-5 border-top border-secondary-subtle"
       >
         <div class="col">
           <a
@@ -405,7 +428,7 @@
             class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
             aria-label="Bootstrap"
           >
-            <img src="./images/logo-s.png" alt="Rediboo logo" />
+            <img id="logo" src="./images/logo.png" alt="Rediboo logo" />
           </a>
           <p class="text-body-secondary">&copy; Copyright 2025</p>
         </div>
