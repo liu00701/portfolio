@@ -71,6 +71,8 @@ nav .nav-link {
 
 main img {
   width: 100%;
+  max-height: 690px;
+  object-fit: cover;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -106,15 +108,15 @@ main img {
 }
 
 /* index.html */
-#app-description {
+/* #app-description {
   font-size: 1.25rem;
-  width: 80%;
+  width: 90%;
   margin: auto;
-}
+} */
 
 #app-description span {
   font-weight: 900;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 #getStartedBtn h1 {
@@ -125,7 +127,7 @@ main img {
 .feature-box {
   background-color: var(--feature-white);
   border-radius: 0.8rem;
-  padding: 1.5rem;
+  padding: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -199,15 +201,13 @@ main img {
     gap: 4rem;
   }
 
-  /* contact.html */
-  #form p {
-    width: 70%;
-    margin: auto;
+  #app-description span {
+    font-weight: 900;
+    font-size: 1.6rem;
   }
 
-  #form form {
-    width: 60%;
-    margin: auto;
+  .feature-box {
+    padding: 1.2rem;
   }
 }
 
@@ -239,6 +239,11 @@ main img {
   /* index.html */
   nav .nav-link {
     font-size: 1.5rem;
+  }
+
+  #app-description span {
+    font-weight: 900;
+    font-size: 1.6rem;
   }
 
   .icon-area i {
