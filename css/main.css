@@ -84,7 +84,7 @@ main img {
   animation-fill-mode: both;
 }
 
-.image-shadow {
+.bottom-shadow {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -114,9 +114,9 @@ main img {
   margin: auto;
 } */
 
-#app-description span {
+p span {
   font-weight: 900;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 #getStartedBtn h1 {
@@ -201,9 +201,9 @@ main img {
     gap: 4rem;
   }
 
-  #app-description span {
+  p span {
     font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .feature-box {
@@ -241,7 +241,7 @@ main img {
     font-size: 1.5rem;
   }
 
-  #app-description span {
+  p span {
     font-weight: 900;
     font-size: 1.6rem;
   }
