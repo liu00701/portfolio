@@ -107,12 +107,16 @@ main img {
   padding: 15px;
 }
 
-/* index.html */
+.headline {
+  font-size: 1.15rem;
+}
 
 p span {
   font-weight: 900;
   font-size: 1.3rem;
 }
+
+/* index.html */
 
 #getStartedBtn h1 {
   margin-bottom: 0;
@@ -196,6 +200,10 @@ p span {
     gap: 4rem;
   }
 
+  .headline {
+    font-size: 1.25rem;
+  }
+
   p span {
     font-weight: 900;
     font-size: 1.4rem;
@@ -231,6 +239,10 @@ p span {
     font-size: 1.25rem;
   }
 
+  .headline {
+    font-size: 1.35rem;
+  }
+
   /* index.html */
   nav .nav-link {
     font-size: 1.5rem;
@@ -238,7 +250,7 @@ p span {
 
   p span {
     font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 1.625rem;
   }
 
   .icon-area i {
