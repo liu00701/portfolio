@@ -16,8 +16,6 @@
   --bs-btn-border-color: var(--bs-primary);
   --bs-btn-hover-bg: var(--bs-primary);
   --bs-btn-hover-border-color: var(--bs-primary);
-  --bs-btn-active-bg: var(--bs-secondary);
-  --bs-btn-active-border-color: var(--bs-primary);
 }
 
 body {
