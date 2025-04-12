@@ -1,9 +1,14 @@
 :root {
   --bs-primary: #fda9ef;
   --bs-primary-rgb: 253, 169, 239;
+  --bg-white: #ffffff;
   --feature-white: #f9f9f9;
   --icon-pink: #fda9ef;
   --feedback-gray: #6f6b80;
+}
+
+.navbar {
+  --bs-navbar-active-color: var(--bs-primary);
 }
 
 .btn-dark {
@@ -107,8 +112,12 @@ main img {
   padding: 15px;
 }
 
-.headline {
+.headline-box {
+  background-color: var(--bg-white);
   font-size: 1.15rem;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 p span {
@@ -175,7 +184,7 @@ p span {
 }
 
 .carousel-indicators {
-  bottom: -60px;
+  bottom: -50px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -200,7 +209,8 @@ p span {
     gap: 4rem;
   }
 
-  .headline {
+  .headline-box {
+    padding: 1.15rem;
     font-size: 1.25rem;
   }
 
@@ -239,7 +249,8 @@ p span {
     font-size: 1.25rem;
   }
 
-  .headline {
+  .headline-box {
+    padding: 1.25rem;
     font-size: 1.35rem;
   }
 
