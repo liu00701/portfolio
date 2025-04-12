@@ -50,8 +50,6 @@ h4,
 h6,
 nav ul li a {
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 
 h1 {
@@ -94,7 +92,10 @@ main img {
 }
 
 /* Logo */
-#logo {
+#header-logo {
+  width: 90px;
+}
+#footer-logo {
   width: 90px;
 }
 
@@ -191,13 +192,6 @@ p span {
   width: 60px;
   height: 10px;
   background-color: var(--icon-pink);
-}
-
-/* about.html */
-
-/* contact.html */
-#submitBtn h3 {
-  margin-bottom: 0;
 }
 
 @media screen and (min-width: 992px) {
