@@ -1,6 +1,6 @@
-# Readbiboo
+# Readibo
 
-Readiboo is a language learning app designed to help you master new languages by immersing you in engaging stories and meaningful content. Instead of memorizing vocabulary in isolation, you learn through context — making the process more natural, effective, and enjoyable.
+Readibo is a language learning app designed to help you master new languages by immersing you in engaging stories and meaningful content. Instead of memorizing vocabulary in isolation, you learn through context — making the process more natural, effective, and enjoyable.
 
 This project is a product website that introduces the app and its key features. I began by referencing a design image and built the layout using HTML and Bootstrap, guided by the [Figma prototype](https://www.figma.com/proto/QJqd1vBz1HUrgMI8snnH83/liu_shuang_prototype?node-id=7-7&t=m0n51RSSKH5PRmLC-1). I then fine-tuned the CSS to ensure everything was responsive across different screen sizes. Along the way, I ran into a few challenges:
 
